@@ -1,0 +1,11 @@
+framework module TestCore {
+  umbrella header "TestCore.h"
+  export *
+
+  module * { export * }
+}
+
+module TestCore.Swift {
+  header "TestCore-Swift.h"
+  requires objc
+}

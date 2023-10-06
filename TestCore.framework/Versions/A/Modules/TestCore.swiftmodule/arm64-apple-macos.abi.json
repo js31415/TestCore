@@ -1,0 +1,85 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyClass",
+        "printedName": "MyClass",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyClass",
+                "printedName": "TestCore.MyClass",
+                "usr": "s:8TestCore7MyClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8TestCore7MyClassCACycfc",
+            "mangledName": "$s8TestCore7MyClassCACycfc",
+            "moduleName": "TestCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "myMethod",
+            "printedName": "myMethod()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8TestCore7MyClassC8myMethodSSyF",
+            "mangledName": "$s8TestCore7MyClassC8myMethodSSyF",
+            "moduleName": "TestCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8TestCore7MyClassC",
+        "mangledName": "$s8TestCore7MyClassC",
+        "moduleName": "TestCore",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/janossagi\/gitlab\/TestCore\/TestCore\/TestClass.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 31,
+      "value": "\"Hello from MyBinaryFramework!\""
+    }
+  ]
+}
